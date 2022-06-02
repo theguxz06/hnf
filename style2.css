@@ -6,12 +6,13 @@ body {
 }
 
 header {
+    position: fixed;
     display: flex;
     min-height: 70px;
+    width: 100%;
     background-color: rgb(87, 7, 7);
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
 }
 a {
     text-decoration: none;
@@ -35,12 +36,13 @@ nav a:hover {
     font-size: 17px;
 }
 .lat {
-    position: absolute;
+    position: fixed;
     width: 80px;
-    min-height: 1000px;
+    min-height: 100%;
     background-color: rgb(18, 18, 80);
     opacity: 0.9;
     font-size: 0;
+    margin-top: 94px;
 }
 
 .lat a {
@@ -71,15 +73,20 @@ main img {
     padding-left:15px ;
     padding-top: 15px;
 }
+main {
+    padding-top: 30px;
+}
 @media (max-width:767px) {
     .lat {
-        position: absolute;
-        width: 70px;
-        height: 220%;       
-        background-color: rgb(18, 18, 80);
-        opacity: 0.9;
-        font-size: 0;
-    }
+            position: fixed;
+            width: 80px;
+            min-height: 100%;
+            background-color: rgb(18, 18, 80);
+            opacity: 0.9;
+            font-size: 0;
+            margin-top: 90px;
+        }
+        
 
     a img {
         width: 40px;
@@ -118,5 +125,8 @@ main img {
         color: white;
         animation: both 2s;
         font-size: 12px;
+    }
+    main li {
+        margin-top: 1200px;
     }
 }

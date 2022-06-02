@@ -6,12 +6,13 @@ body {
 }
 
 header {
+    position: fixed;
     display: flex;
     min-height: 70px;
+    width: 100%;
     background-color: rgb(87, 7, 7);
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
 }
 a {
     text-decoration: none;
@@ -34,14 +35,15 @@ nav a:hover {
     animation: both 2s;
     font-size: 17px;
 }
-.lat {
-    position: absolute;
-    width: 80px;
-    min-height: 863px;
-    background-color: rgb(18, 18, 80);
-    opacity: 0.9;
-    font-size: 0;
-}
+ .lat {
+     position: fixed;
+     width: 80px;
+     min-height: 100%;
+     background-color: rgb(18, 18, 80);
+     opacity: 0.9;
+     font-size: 0;
+     margin-top: 94px;
+ }
 
 .lat a {
     display: flex;
@@ -73,16 +75,21 @@ main img {
         margin-left: auto;
         margin-right: auto;
 }
+main {
+padding-top: 80px;}
+    
 /** celar **/
 @media (max-width:767px) {
     .lat {
-            position: absolute;
-            width: 70px;
-            min-height: 760px;
-            background-color: rgb(18, 18, 80);
-            opacity: 0.9;
-            font-size: 0;
-        }
+        position: fixed;
+        width: 80px;
+        min-height: 100%;
+        background-color: rgb(18, 18, 80);
+        opacity: 0.9;
+        font-size: 0;
+        margin-top: 90px;
+    }
+
         a img {
              width: 40px;
         }
@@ -104,6 +111,7 @@ main img {
               padding: 10px;
               font-size: 12px;
             font-weight: 6000;
+            
           }
         main img {
             width: 200px;
@@ -116,6 +124,7 @@ main img {
             animation: both 2s;
             font-size: 12px;
         }
+        
 }
 
 

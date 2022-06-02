@@ -5,12 +5,13 @@ body {
     color: white;
 }
 header {
+    position: fixed;
     display: flex;
     min-height: 70px;
+    width: 100%;
     background-color: rgb(87, 7, 7);
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
 }
 a {
     text-decoration: none;
@@ -34,12 +35,13 @@ nav a:hover {
     font-size: 17px;
 }
 .lat {
-    position: absolute;
+    position: fixed;
     width: 80px;
-    min-height: 1200px;
+    min-height: 100%;
     background-color: rgb(18, 18, 80);
     opacity: 0.9;
     font-size: 0;
+    margin-top: 94px;
 }
 
 .lat a {
@@ -78,13 +80,14 @@ main li {
 }
 @media (max-width:767px) {
     .lat {
-        position: absolute;
-        width: 70px;
-        min-height: 100vh;
-        background-color: rgb(18, 18, 80);
-        opacity: 0.9;
-        font-size: 0;
-    }
+            position: fixed;
+            width: 80px;
+            min-height: 100%;
+            background-color: rgb(18, 18, 80);
+            opacity: 0.9;
+            font-size: 0;
+            margin-top: 90px;
+        }
 
     a img {
         width: 40px;
