@@ -75,7 +75,7 @@ main img {
     .lat {
         position: absolute;
         width: 70px;
-        min-height: 150vh;
+        height: 220%;       
         background-color: rgb(18, 18, 80);
         opacity: 0.9;
         font-size: 0;
