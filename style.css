@@ -1,0 +1,75 @@
+body {
+    background-color: rgb(0, 0, 0);
+    font-family: sans-serif;
+    margin: 0;
+    color: white;
+}
+
+header {
+    display: flex;
+    min-height: 70px;
+    background-color: rgb(87, 7, 7);
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.logo img {
+    width: 180px;
+    height: 90px;
+    margin-left: 0px;
+}
+
+nav a {
+    font-weight: 600;
+    padding-right: 10px;
+}
+
+nav a:hover {
+    color: white;
+    animation: both 2s;
+    font-size: 17px;
+}
+.lat {
+    position: absolute;
+    width: 80px;
+    min-height: 863px;
+    background-color: rgb(18, 18, 80);
+    opacity: 0.9;
+    font-size: 0;
+}
+
+.lat a {
+    display: flex;
+    padding: 15px;
+}
+.lat a {
+    padding-left: 15px;
+    align-items: center;
+}
+.lat:hover {
+    width: 190px;
+    font-size: 15px;
+}
+.lat a img:hover {
+    width: 60px;
+    font-size: 30px;
+}
+a img {
+    width: 50px;
+}
+main {
+    font-weight: 600;
+    padding-left: 100px;
+    padding-top: 15px;    
+}
+main img {
+    width: 700px;
+    display: block;
+        margin-left: auto;
+        margin-right: auto;
+}
