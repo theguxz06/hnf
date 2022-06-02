@@ -71,3 +71,52 @@ main img {
     padding-left:15px ;
     padding-top: 15px;
 }
+@media (max-width:767px) {
+    .lat {
+        position: absolute;
+        width: 70px;
+        min-height: 150vh;
+        background-color: rgb(18, 18, 80);
+        opacity: 0.9;
+        font-size: 0;
+    }
+
+    a img {
+        width: 40px;
+    }
+
+    main {
+        font-weight: 600;
+        padding-left: 90px;
+        padding-top: 5px;
+    }
+
+    .logo img {
+        width: 0px;
+        height: 60px;
+        margin-left: 0px;
+    }
+
+    header {
+        display: flex;
+        height: 70px;
+        background-color: rgb(87, 7, 7);
+        align-items: center;
+        padding: 10px;
+        font-size: 12px;
+        font-weight: 6000;
+    }
+
+    main img {
+        width: 200px;
+        display: block;
+        padding-right: 40px;
+
+    }
+
+    nav a:hover {
+        color: white;
+        animation: both 2s;
+        font-size: 12px;
+    }
+}
