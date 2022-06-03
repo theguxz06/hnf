@@ -103,13 +103,14 @@ padding-top: 80px;}
               height: 60px;
               margin-left: 0px;
           }
+
           header {
               display: flex;
               height: 70px;
               background-color: rgb(87, 7, 7);
               align-items: center;
               padding: 10px;
-              font-size: 12px;
+              font-size: 10px;
             font-weight: 6000;
             
           }
@@ -122,7 +123,7 @@ padding-top: 80px;}
         nav a:hover {
             color: white;
             animation: both 2s;
-            font-size: 12px;
+            font-size: 10px;
         }
         
 }

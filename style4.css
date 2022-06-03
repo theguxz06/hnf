@@ -68,6 +68,11 @@ main {
     padding-left: 120px;
     padding-top: 15px;
 }
+nav a {
+    font-size: 10px;
+    font-weight: 600;
+    padding-right: 10px;
+}
 main img {
     width: 700px;
     display: block;
@@ -111,7 +116,7 @@ main li {
         background-color: rgb(87, 7, 7);
         align-items: center;
         padding: 10px;
-        font-size: 12px;
+        font-size: 10px;
         font-weight: 6000;
     }
 
@@ -125,6 +130,6 @@ main li {
     nav a:hover {
         color: white;
         animation: both 2s;
-        font-size: 12px;
+        font-size: 10px;
     }
 }

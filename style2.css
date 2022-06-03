@@ -45,6 +45,7 @@ nav a:hover {
     margin-top: 94px;
 }
 
+
 .lat a {
     display: flex;
     padding: 15px;
@@ -97,6 +98,11 @@ main {
         padding-left: 90px;
         padding-top: 5px;
     }
+        nav a {
+            font-size: 10px;
+            font-weight: 600;
+            padding-right: 10px;
+        }
 
     .logo img {
         width: 0px;
@@ -110,7 +116,7 @@ main {
         background-color: rgb(87, 7, 7);
         align-items: center;
         padding: 10px;
-        font-size: 12px;
+        font-size: 120px;
         font-weight: 6000;
     }
 
@@ -124,7 +130,7 @@ main {
     nav a:hover {
         color: white;
         animation: both 2s;
-        font-size: 12px;
+        font-size: 10px;
     }
     main li {
         margin-top: 1200px;
