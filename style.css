@@ -110,7 +110,7 @@ padding-top: 80px;}
               background-color: #A2CADF;
               padding: 10px;
             justify-content: space-around;
-              font-size: 10px;
+              font-size: 15px;
             font-weight: 6000;            
           }
         main img {
@@ -122,7 +122,7 @@ padding-top: 80px;}
         nav a:hover {
             color: white;
             animation: both 2s;
-            font-size: 10px;
+            font-size: 17px;
         }
         main h1 {
             padding-top: 30px;

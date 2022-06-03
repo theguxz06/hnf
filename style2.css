@@ -110,7 +110,7 @@ main {
              background-color: #A2CADF;
              padding: 10px;
              justify-content: space-around;
-             font-size: 10px;
+            font-size: 15px;
              font-weight: 6000;
          }
 
@@ -124,7 +124,7 @@ main {
     nav a:hover {
         color: white;
         animation: both 2s;
-        font-size: 10px;
+    font-size: 17px;
     }
     main li {
         margin-top: 1200px;
