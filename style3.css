@@ -65,19 +65,17 @@ a img {
     width: 50px;
 }
 main {
-    font-weight: 600;
+    font-weight: 600px;
     padding-left: 100px;
     padding-top: 40px;
 }
 .info video {
-    width: 600px;
+    width: 800px;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
-main li {
-    list-style: none;
-}
+
 @media (max-width:767px) {
     @media (max-width:767px) {
     .lat {
