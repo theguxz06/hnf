@@ -1,9 +1,9 @@
 
 body {
-    background-color: rgb(0, 0, 0);
+    background-color: white;
     font-family: sans-serif;
     margin: 0;
-    color: white;
+    color: black;
 }
 
 header {
@@ -11,7 +11,7 @@ header {
     display: flex;
     min-height: 70px;
     width: 100%;
-    background-color: rgb(87, 7, 7);
+    background-color: #A2CADF;
     justify-content: space-between;
     align-items: center;
 }
@@ -79,6 +79,7 @@ main li {
     list-style: none;
 }
 @media (max-width:767px) {
+    @media (max-width:767px) {
     .lat {
             position: fixed;
             width: 80px;
@@ -88,15 +89,11 @@ main li {
             font-size: 0;
             margin-top: 90px;
         }
-         nav a {
-             font-size: 10px;
-             font-weight: 600;
-             padding-right: 10px;
-         }
+         
 
-    a img {
-        width: 40px;
-    }
+        a img {
+            width: 40px;
+        }
 
     main {
         font-weight: 600;
@@ -110,16 +107,36 @@ main li {
         margin-left: 0px;
     }
 
-    header {
-        display: flex;
-        height: 70px;
-        background-color: rgb(87, 7, 7);
-        align-items: center;
-        padding: 10px;
+         header {
+           display: flex;
+          height: 70px;
+         background-color: #A2CADF;
+           padding: 10px;
+               justify-content: space-around;
+               font-size: 10px;
+               font-weight: 6000;
+                  }
+
+        .info video {
+            width: 250px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    nav a:hover {
+        color: white;
+        animation: both 2s;
         font-size: 10px;
-        font-weight: 6000;
-        position: fixed;
     }
+}
+
+    .logo img {
+        width: 0px;
+        height: 60px;
+        margin-left: 0px;
+    }
+
+        
 
         .info video {
             width: 250px;

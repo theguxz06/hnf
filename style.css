@@ -1,8 +1,8 @@
 body {
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(255, 251, 251);
     font-family: sans-serif;
     margin: 0;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 header {
@@ -10,7 +10,7 @@ header {
     display: flex;
     min-height: 70px;
     width: 100%;
-    background-color: rgb(87, 7, 7);
+    background-color: #A2CADF;
     justify-content: space-between;
     align-items: center;
 }
@@ -103,16 +103,15 @@ padding-top: 80px;}
               height: 60px;
               margin-left: 0px;
           }
-
+          
           header {
               display: flex;
               height: 70px;
-              background-color: rgb(87, 7, 7);
-              align-items: center;
+              background-color: #A2CADF;
               padding: 10px;
+            justify-content: space-around;
               font-size: 10px;
-            font-weight: 6000;
-            
+            font-weight: 6000;            
           }
         main img {
             width: 200px;
