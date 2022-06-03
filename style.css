@@ -124,6 +124,9 @@ padding-top: 80px;}
             animation: both 2s;
             font-size: 10px;
         }
+        main h1 {
+            padding-top: 30px;
+        }
         
 }
 
