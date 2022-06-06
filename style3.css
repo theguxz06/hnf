@@ -43,7 +43,7 @@ nav a:hover {
      background-color: rgb(18, 18, 80);
      opacity: 0.9;
      font-size: 0;
-     margin-top: 94px;
+     margin-top: 70px;
  }
 
 .lat a {
@@ -136,15 +136,5 @@ main {
 
         
 
-        .info video {
-            width: 250px;
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-        }
-    nav a:hover {
-        color: white;
-        animation: both 2s;
-        font-size: 17px;
-    }
+        
 
